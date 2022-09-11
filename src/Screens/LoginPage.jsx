@@ -12,6 +12,8 @@ const LoginPage = () => {
 
   const LoginUser = async () => {
     console.log("clicker");
+    console.log("clicker");
+
     try {
       let result = await signInWithEmailAndPassword(auth, email, password);
       console.log(result);
